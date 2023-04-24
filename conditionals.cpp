@@ -1,28 +1,29 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int n; 
-    cout<<"Value of n is "<<endl;
-    cin>>n;
-    if (n>0)
+    int n;
+    cout << "Value of n is " << endl;
+    cin >> n;
+    if (n > 0)
     {
-    cout<<"n is positive"<<endl;
+        cout << "n is positive" << endl;
     }
-    else if (n<0)
+    else if (n < 0)
     {
-        cout<<"n is negative"<<endl;
+        cout << "n is negative" << endl;
     }
     else
     {
-        cout<<"n is zero"<<endl;
+        cout << "n is zero" << endl;
     }
-   //odd even code
-  if (n%2==0)
-  {
-    cout<<"n is even"<<endl;
-  }
-        else{
-            cout<<"n is odd"<<endl;
-        }
+    // odd even code
+    if (n % 2 == 0)
+    {
+        cout << "n is even" << endl;
+    }
+    else
+    {
+        cout << "n is odd" << endl;
+    }
 }
