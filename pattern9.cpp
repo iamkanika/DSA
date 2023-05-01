@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout << " Enter the value of n=" << endl;
+    cout << " Enter the value of n =" << endl;
     cin >> n;
     int i = 1;
     int count = 1;
