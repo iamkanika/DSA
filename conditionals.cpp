@@ -17,7 +17,7 @@ int main()
     {
         cout<<"n is zero"<<endl;
     }
-   //odd-even code
+   //odd even code
   if (n%2==0)
   {
     cout<<"n is even"<<endl;
